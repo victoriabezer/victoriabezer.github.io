@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Prata"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Prata", serif;
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/d63bd82a52.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Contact Page</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li><a href="home_page.html">Home</a></li>
+      </ul>
+      <div class="rightnav">
+        <input type="text" name="search" id="search" placeholder="Search..." />
+        <button class="btn btn-sm">Go</button>
+      </div>
+    </nav>
+    <!-- Site Logo -->
+    <div class="logo-container" id="logo_contact_page">
+      <div class="logo-text">The CFG City Guide</div>
+    </div>
+    <section id="contact">
+      <h1>Contact Us</h1>
+      <h3>
+        We'd love to hear from you if you have any questions about Boston, Los
+        Angeles, or New York!
+      </h3>
+    </section>
+    <form>
+      <input
+        type="text"
+        class="input-box"
+        placeholder="Enter your name"
+        id="fullName"
+      /><br /><br />
+      <input
+        type="email"
+        class="input-box"
+        placeholder="Enter your email"
+        id="email"
+      /><br /><br />
+      <label for="question" id="form_question_text"
+        >What is your question?</label
+      >
+      <br />
+      <textarea id="question" rows="4" class="input-box"></textarea><br /><br />
+      <input type="submit" class="submit" onclick="return validateForm()" />
+      <div id="successMessage" style="display: none">
+        <h3>Thanks for getting in touch, we'll reply as soon as we can!</h3>
+      </div>
+    </form>
+    <!-- Footer -->
+    <div class="footer">
+      <a>
+        <ul>
+          <a class="Home Page" href="../pages/home_page.html">Home | </a>
+          <a class="Contact Form" href="../pages/contact_page.html"
+            >Contact Us |
+          </a>
+          <a href="https://www.instagram.com/">
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+        </ul>
+      </a>
+      <span>a Code First Girls City Guides, by C, S & V 2024</span>
+    </div>
+    <script src="../scripts/script.js"></script>
+  </body>
+</html>

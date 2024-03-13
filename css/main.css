@@ -1,0 +1,164 @@
+/* Common styles */
+h1,
+h3 {
+  text-align: center;
+  margin: 0 auto;
+  font: 300 italic;
+  color: #ef8ed5;
+  letter-spacing: 6px;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: "Prata", serif;
+}
+.nav-list li {
+  margin-right: 15px;
+}
+.nav-list li a {
+  color: black;
+  text-decoration: none;
+}
+.nav-list li a:hover {
+  color: #ef8ed5;
+}
+.logo-text {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+  font-size: 50px;
+}
+/* CSS from first file */
+#logo_contact_page {
+  margin-left: auto;
+  margin-right: auto;
+}
+.input-box {
+  width: 300px;
+  height: 50px;
+}
+form {
+  letter-spacing: 8px;
+  padding-right: 250px;
+  padding-left: 250px;
+  text-align: center;
+  margin: center;
+}
+.submit {
+  background-color: #ef8ed5;
+  width: 80px;
+  height: 30px;
+}
+a:visited {
+  text-decoration: none;
+  color: rgb(87, 5, 5);
+}
+#form_question_text {
+  letter-spacing: 5px;
+}
+/* CSS from second file */
+.navbar {
+  background-color: white;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.rightnav input[type="text"] {
+  padding: 5px;
+  margin-right: 10px;
+}
+.rightnav .btn {
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.rightnav .btn:hover {
+  background-color: #ddd;
+}
+.main-content {
+  display: flex;
+  margin-top: 20px;
+}
+.sidenav {
+  background-color: #eee;
+  padding: 30px;
+  width: 200px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.sidenav a {
+  display: block;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
+.sidenav a:hover {
+  color: #ef8ed5;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-container {
+  background-color: #ef8ed5;
+  width: 700px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border: 1px solid grey;
+}
+.content-container p {
+  margin: 20px;
+  text-align: justify;
+  text-align: center;
+  width: 700px;
+}
+.image-container {
+  width: auto;
+  height: auto;
+  position: relative;
+}
+#la_image,
+#boston_image,
+#ny_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 50%;
+  width: auto;
+  height: auto;
+}
+#main_page_copy {
+  text-align: left;
+}
+.footer {
+  font-size: medium;
+  background-color: black;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin-top: auto;
+  padding-bottom: 60px;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+   }
